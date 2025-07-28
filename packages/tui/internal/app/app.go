@@ -3,8 +3,8 @@ package app
 import (
 	"context"
 	"fmt"
+	"os"
 	"path/filepath"
-	"sort"
 	"strings"
 
 	"log/slog"
@@ -52,6 +52,13 @@ type SessionCreatedMsg = struct {
 	Session *opencode.Session
 }
 type SessionSelectedMsg = *opencode.Session
+type MessageRevertedMsg struct {
+	Session opencode.Session
+	Message Message
+}
+type SessionUnrevertedMsg struct {
+	Session opencode.Session
+}
 type SessionLoadedMsg struct{}
 type ModelSelectedMsg struct {
 	Provider opencode.Provider
@@ -102,6 +109,11 @@ func New(
 
 	if configInfo.Theme != "" {
 		appState.Theme = configInfo.Theme
+	}
+
+	themeEnv := os.Getenv("OPENCODE_THEME")
+	if themeEnv != "" {
+		appState.Theme = themeEnv
 	}
 
 	var modeIndex int
@@ -166,7 +178,22 @@ func New(
 		IntitialMode:  initialMode,
 	}
 
+	if app.Version != "dev" {
+		delete(app.Commands, commands.MessagesUndoCommand)
+		delete(app.Commands, commands.MessagesRedoCommand)
+	}
+
 	return app, nil
+}
+
+func (a *App) Keybind(commandName commands.CommandName) string {
+	command := a.Commands[commandName]
+	kb := command.Keybindings[0]
+	key := kb.Key
+	if kb.RequiresLeader {
+		key = a.Config.Keybinds.Leader + " " + kb.Key
+	}
+	return key
 }
 
 func (a *App) Key(commandName commands.CommandName) string {
@@ -178,11 +205,7 @@ func (a *App) Key(commandName commands.CommandName) string {
 		Faint(true).
 		Render
 	command := a.Commands[commandName]
-	kb := command.Keybindings[0]
-	key := kb.Key
-	if kb.RequiresLeader {
-		key = a.Config.Keybinds.Leader + " " + kb.Key
-	}
+	key := a.Keybind(commandName)
 	return base(key) + muted(" "+command.Description)
 }
 
@@ -365,7 +388,7 @@ func (a *App) IsBusy() bool {
 	if casted, ok := lastMessage.Info.(opencode.AssistantMessage); ok {
 		return casted.Time.Completed == 0
 	}
-	return false
+	return true
 }
 
 func (a *App) SaveState() tea.Cmd {
@@ -513,9 +536,6 @@ func (a *App) ListSessions(ctx context.Context) ([]opencode.Session, error) {
 		return []opencode.Session{}, nil
 	}
 	sessions := *response
-	sort.Slice(sessions, func(i, j int) bool {
-		return sessions[i].Time.Created-sessions[j].Time.Created > 0
-	})
 	return sessions, nil
 }
 

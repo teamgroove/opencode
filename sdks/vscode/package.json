@@ -26,25 +26,57 @@
     "commands": [
       {
         "command": "opencode.openTerminal",
-        "title": "Open Terminal with Opencode"
+        "title": "Open opencode",
+        "icon": {
+          "light": "images/button-dark.svg",
+          "dark": "images/button-light.svg"
+        }
+      },
+      {
+        "command": "opencode.openNewTerminal",
+        "title": "Open opencode in new tab",
+        "icon": {
+          "light": "images/button-dark.svg",
+          "dark": "images/button-light.svg"
+        }
       },
       {
         "command": "opencode.addFilepathToTerminal",
         "title": "Add Filepath to Terminal"
       }
     ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "opencode.openNewTerminal",
+          "group": "navigation"
+        }
+      ]
+    },
     "keybindings": [
       {
         "command": "opencode.openTerminal",
         "title": "Run opencode",
         "key": "cmd+escape",
-        "mac": "cmd+escape"
+        "mac": "cmd+escape",
+        "win": "ctrl+escape",
+        "linux": "ctrl+escape"
+      },
+      {
+        "command": "opencode.openNewTerminal",
+        "title": "Run opencode",
+        "key": "cmd+shift+escape",
+        "mac": "cmd+shift+escape",
+        "win": "ctrl+shift+escape",
+        "linux": "ctrl+shift+escape"
       },
       {
         "command": "opencode.addFilepathToTerminal",
         "title": "opencode: Insert At-Mentioned",
         "key": "cmd+alt+k",
-        "mac": "cmd+alt+k"
+        "mac": "cmd+alt+k",
+        "win": "ctrl+alt+K",
+        "linux": "ctrl+alt+K"
       }
     ]
   },
