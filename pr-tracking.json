@@ -1,0 +1,842 @@
+{
+  "merged_prs": [
+    {
+      "pr_number": 1547,
+      "commit_hash": "b0f2cc0c",
+      "merged_at": "2025-08-03T14:59:59+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1546,
+      "commit_hash": "2d3f9498",
+      "merged_at": "2025-08-03T15:00:01+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1545,
+      "commit_hash": "d6ca2b53",
+      "merged_at": "2025-08-03T15:00:02+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1540,
+      "commit_hash": "8369b8a4",
+      "merged_at": "2025-08-03T15:00:03+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1524,
+      "commit_hash": "690dab5a",
+      "merged_at": "2025-08-03T15:00:04+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1488,
+      "commit_hash": "09dc979f",
+      "merged_at": "2025-08-03T15:01:09+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1407,
+      "commit_hash": "39136bb6",
+      "merged_at": "2025-08-03T15:01:13+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1404,
+      "commit_hash": "deecbdbd",
+      "merged_at": "2025-08-03T15:01:14+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1367,
+      "commit_hash": "8d5a87ba",
+      "merged_at": "2025-08-03T15:01:16+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1333,
+      "commit_hash": "418a2820",
+      "merged_at": "2025-08-03T15:01:22+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1331,
+      "commit_hash": "4f726b68",
+      "merged_at": "2025-08-03T15:01:23+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1323,
+      "commit_hash": "763ebaf6",
+      "merged_at": "2025-08-03T15:01:24+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1315,
+      "commit_hash": "fb016c36",
+      "merged_at": "2025-08-03T15:01:26+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1303,
+      "commit_hash": "4a15fdeb",
+      "merged_at": "2025-08-03T15:01:30+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1270,
+      "commit_hash": "8854911e",
+      "merged_at": "2025-08-03T15:01:33+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1256,
+      "commit_hash": "d7d6276f",
+      "merged_at": "2025-08-03T15:01:35+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1236,
+      "commit_hash": "99c8121f",
+      "merged_at": "2025-08-03T15:01:37+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1224,
+      "commit_hash": "6f0b43b4",
+      "merged_at": "2025-08-03T15:01:39+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1196,
+      "commit_hash": "bb9f95bb",
+      "merged_at": "2025-08-03T15:01:43+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1162,
+      "commit_hash": "f82a9c78",
+      "merged_at": "2025-08-03T15:01:49+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1137,
+      "commit_hash": "68826b8c",
+      "merged_at": "2025-08-03T15:01:52+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1123,
+      "commit_hash": "701951a7",
+      "merged_at": "2025-08-03T15:01:53+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1099,
+      "commit_hash": "6000b10d",
+      "merged_at": "2025-08-03T15:01:55+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1056,
+      "commit_hash": "76186faa",
+      "merged_at": "2025-08-03T15:01:56+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1041,
+      "commit_hash": "9f2718dc",
+      "merged_at": "2025-08-03T15:01:57+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 1022,
+      "commit_hash": "10a41c13",
+      "merged_at": "2025-08-03T15:02:01+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 952,
+      "commit_hash": "7d341792",
+      "merged_at": "2025-08-03T15:02:03+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 933,
+      "commit_hash": "6da11a21",
+      "merged_at": "2025-08-03T15:02:04+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 871,
+      "commit_hash": "45fc027e",
+      "merged_at": "2025-08-03T15:02:07+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 859,
+      "commit_hash": "80836dc4",
+      "merged_at": "2025-08-03T15:02:08+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 822,
+      "commit_hash": "14b482bb",
+      "merged_at": "2025-08-03T15:02:09+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 741,
+      "commit_hash": "40d7eef3",
+      "merged_at": "2025-08-03T15:02:15+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 697,
+      "commit_hash": "c08980ac",
+      "merged_at": "2025-08-03T15:02:19+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 638,
+      "commit_hash": "7865fdc1",
+      "merged_at": "2025-08-03T15:02:24+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 612,
+      "commit_hash": "6759a15a",
+      "merged_at": "2025-08-03T15:02:27+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 580,
+      "commit_hash": "90aaf42b",
+      "merged_at": "2025-08-03T15:02:28+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 533,
+      "commit_hash": "ac2d0360",
+      "merged_at": "2025-08-03T15:02:33+02:00",
+      "message": "Successfully merged"
+    },
+    {
+      "pr_number": 394,
+      "commit_hash": "c400ba02",
+      "merged_at": "2025-08-03T15:02:42+02:00",
+      "message": "Successfully merged"
+    }
+  ],
+  "failed_prs": [
+    {
+      "pr_number": 1518,
+      "failed_at": "2025-08-03T15:00:05+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1518,
+      "failed_at": "2025-08-03T15:00:20+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1518,
+      "failed_at": "2025-08-03T15:00:39+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1518,
+      "failed_at": "2025-08-03T15:01:05+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1496,
+      "failed_at": "2025-08-03T15:01:07+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1493,
+      "failed_at": "2025-08-03T15:01:08+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1470,
+      "failed_at": "2025-08-03T15:01:10+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1437,
+      "failed_at": "2025-08-03T15:01:11+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1430,
+      "failed_at": "2025-08-03T15:01:12+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1369,
+      "failed_at": "2025-08-03T15:01:15+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1366,
+      "failed_at": "2025-08-03T15:01:17+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1360,
+      "failed_at": "2025-08-03T15:01:19+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1350,
+      "failed_at": "2025-08-03T15:01:20+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1345,
+      "failed_at": "2025-08-03T15:01:21+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1317,
+      "failed_at": "2025-08-03T15:01:25+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1308,
+      "failed_at": "2025-08-03T15:01:27+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1304,
+      "failed_at": "2025-08-03T15:01:29+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1299,
+      "failed_at": "2025-08-03T15:01:31+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1294,
+      "failed_at": "2025-08-03T15:01:32+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1260,
+      "failed_at": "2025-08-03T15:01:34+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1254,
+      "failed_at": "2025-08-03T15:01:36+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1232,
+      "failed_at": "2025-08-03T15:01:38+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1218,
+      "failed_at": "2025-08-03T15:01:41+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1209,
+      "failed_at": "2025-08-03T15:01:42+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1191,
+      "failed_at": "2025-08-03T15:01:44+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1189,
+      "failed_at": "2025-08-03T15:01:45+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1171,
+      "failed_at": "2025-08-03T15:01:46+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1170,
+      "failed_at": "2025-08-03T15:01:47+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1163,
+      "failed_at": "2025-08-03T15:01:48+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1161,
+      "failed_at": "2025-08-03T15:01:50+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1121,
+      "failed_at": "2025-08-03T15:01:54+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1027,
+      "failed_at": "2025-08-03T15:01:58+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 1024,
+      "failed_at": "2025-08-03T15:01:59+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 973,
+      "failed_at": "2025-08-03T15:02:02+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 899,
+      "failed_at": "2025-08-03T15:02:06+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 816,
+      "failed_at": "2025-08-03T15:02:10+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 799,
+      "failed_at": "2025-08-03T15:02:11+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 791,
+      "failed_at": "2025-08-03T15:02:12+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 790,
+      "failed_at": "2025-08-03T15:02:14+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 737,
+      "failed_at": "2025-08-03T15:02:16+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 722,
+      "failed_at": "2025-08-03T15:02:17+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 712,
+      "failed_at": "2025-08-03T15:02:18+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 696,
+      "failed_at": "2025-08-03T15:02:20+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 693,
+      "failed_at": "2025-08-03T15:02:21+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 661,
+      "failed_at": "2025-08-03T15:02:22+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 636,
+      "failed_at": "2025-08-03T15:02:25+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 634,
+      "failed_at": "2025-08-03T15:02:26+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 568,
+      "failed_at": "2025-08-03T15:02:29+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 562,
+      "failed_at": "2025-08-03T15:02:30+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 540,
+      "failed_at": "2025-08-03T15:02:31+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 509,
+      "failed_at": "2025-08-03T15:02:34+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 503,
+      "failed_at": "2025-08-03T15:02:35+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 481,
+      "failed_at": "2025-08-03T15:02:36+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 479,
+      "failed_at": "2025-08-03T15:02:38+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 466,
+      "failed_at": "2025-08-03T15:02:39+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 429,
+      "failed_at": "2025-08-03T15:02:40+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 418,
+      "failed_at": "2025-08-03T15:02:41+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 371,
+      "failed_at": "2025-08-03T15:02:44+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 348,
+      "failed_at": "2025-08-03T15:02:45+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 346,
+      "failed_at": "2025-08-03T15:02:46+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 343,
+      "failed_at": "2025-08-03T15:02:47+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 342,
+      "failed_at": "2025-08-03T15:02:48+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 331,
+      "failed_at": "2025-08-03T15:02:49+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 312,
+      "failed_at": "2025-08-03T15:02:50+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 311,
+      "failed_at": "2025-08-03T15:02:51+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 279,
+      "failed_at": "2025-08-03T15:02:53+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 275,
+      "failed_at": "2025-08-03T15:02:54+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 269,
+      "failed_at": "2025-08-03T15:02:55+02:00",
+      "reason": "Merge conflicts detected"
+    },
+    {
+      "pr_number": 75,
+      "failed_at": "2025-08-03T15:02:56+02:00",
+      "reason": "Merge conflicts detected"
+    }
+  ],
+  "skipped_prs": [
+    {
+      "pr_number": 1547,
+      "skipped_at": "2025-08-03T14:57:44+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1545,
+      "skipped_at": "2025-08-03T14:57:45+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1524,
+      "skipped_at": "2025-08-03T14:57:46+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1496,
+      "skipped_at": "2025-08-03T14:57:47+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1488,
+      "skipped_at": "2025-08-03T14:57:48+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1437,
+      "skipped_at": "2025-08-03T14:57:49+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1407,
+      "skipped_at": "2025-08-03T14:57:50+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1369,
+      "skipped_at": "2025-08-03T14:57:51+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1366,
+      "skipped_at": "2025-08-03T14:57:53+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1350,
+      "skipped_at": "2025-08-03T14:57:54+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1333,
+      "skipped_at": "2025-08-03T14:57:55+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1323,
+      "skipped_at": "2025-08-03T14:57:56+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1315,
+      "skipped_at": "2025-08-03T14:57:57+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1304,
+      "skipped_at": "2025-08-03T14:57:58+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1299,
+      "skipped_at": "2025-08-03T14:57:59+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1270,
+      "skipped_at": "2025-08-03T14:58:00+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1256,
+      "skipped_at": "2025-08-03T14:58:01+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1236,
+      "skipped_at": "2025-08-03T14:58:02+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1224,
+      "skipped_at": "2025-08-03T14:58:03+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1209,
+      "skipped_at": "2025-08-03T14:58:04+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1191,
+      "skipped_at": "2025-08-03T14:58:05+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1171,
+      "skipped_at": "2025-08-03T14:58:06+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1163,
+      "skipped_at": "2025-08-03T14:58:07+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1161,
+      "skipped_at": "2025-08-03T14:58:08+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1123,
+      "skipped_at": "2025-08-03T14:58:09+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1099,
+      "skipped_at": "2025-08-03T14:58:10+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1041,
+      "skipped_at": "2025-08-03T14:58:11+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 1024,
+      "skipped_at": "2025-08-03T14:58:12+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 973,
+      "skipped_at": "2025-08-03T14:58:13+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 933,
+      "skipped_at": "2025-08-03T14:58:14+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 871,
+      "skipped_at": "2025-08-03T14:58:15+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 822,
+      "skipped_at": "2025-08-03T14:58:16+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 799,
+      "skipped_at": "2025-08-03T14:58:17+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 790,
+      "skipped_at": "2025-08-03T14:58:18+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 737,
+      "skipped_at": "2025-08-03T14:58:19+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 712,
+      "skipped_at": "2025-08-03T14:58:20+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 696,
+      "skipped_at": "2025-08-03T14:58:21+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 661,
+      "skipped_at": "2025-08-03T14:58:22+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 636,
+      "skipped_at": "2025-08-03T14:58:23+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 612,
+      "skipped_at": "2025-08-03T14:58:24+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 568,
+      "skipped_at": "2025-08-03T14:58:25+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 540,
+      "skipped_at": "2025-08-03T14:58:26+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 509,
+      "skipped_at": "2025-08-03T14:58:27+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 481,
+      "skipped_at": "2025-08-03T14:58:29+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 466,
+      "skipped_at": "2025-08-03T14:58:30+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 418,
+      "skipped_at": "2025-08-03T14:58:31+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 371,
+      "skipped_at": "2025-08-03T14:58:32+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 346,
+      "skipped_at": "2025-08-03T14:58:33+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 342,
+      "skipped_at": "2025-08-03T14:58:34+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 312,
+      "skipped_at": "2025-08-03T14:58:35+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 279,
+      "skipped_at": "2025-08-03T14:58:36+02:00",
+      "reason": "Skipped by user (default)"
+    },
+    {
+      "pr_number": 269,
+      "skipped_at": "2025-08-03T14:58:37+02:00",
+      "reason": "Skipped by user (default)"
+    }
+  ],
+  "last_updated": "2025-08-03T15:02:56+02:00"
+}

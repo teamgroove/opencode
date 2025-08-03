@@ -1,0 +1,310 @@
+2025-08-03 14:57:43 - Starting new merge session
+2025-08-03 14:57:43 - 📡 Fetching latest changes...
+2025-08-03 14:57:44 - ⏭️  Skipping PR #1547 (default action)
+2025-08-03 14:57:45 - ⏭️  Skipping PR #1545 (default action)
+2025-08-03 14:57:46 - ⏭️  Skipping PR #1524 (default action)
+2025-08-03 14:57:47 - ⏭️  Skipping PR #1496 (default action)
+2025-08-03 14:57:48 - ⏭️  Skipping PR #1488 (default action)
+2025-08-03 14:57:49 - ⏭️  Skipping PR #1437 (default action)
+2025-08-03 14:57:50 - ⏭️  Skipping PR #1407 (default action)
+2025-08-03 14:57:51 - ⏭️  Skipping PR #1369 (default action)
+2025-08-03 14:57:53 - ⏭️  Skipping PR #1366 (default action)
+2025-08-03 14:57:54 - ⏭️  Skipping PR #1350 (default action)
+2025-08-03 14:57:55 - ⏭️  Skipping PR #1333 (default action)
+2025-08-03 14:57:56 - ⏭️  Skipping PR #1323 (default action)
+2025-08-03 14:57:57 - ⏭️  Skipping PR #1315 (default action)
+2025-08-03 14:57:58 - ⏭️  Skipping PR #1304 (default action)
+2025-08-03 14:57:59 - ⏭️  Skipping PR #1299 (default action)
+2025-08-03 14:58:00 - ⏭️  Skipping PR #1270 (default action)
+2025-08-03 14:58:01 - ⏭️  Skipping PR #1256 (default action)
+2025-08-03 14:58:02 - ⏭️  Skipping PR #1236 (default action)
+2025-08-03 14:58:03 - ⏭️  Skipping PR #1224 (default action)
+2025-08-03 14:58:04 - ⏭️  Skipping PR #1209 (default action)
+2025-08-03 14:58:05 - ⏭️  Skipping PR #1191 (default action)
+2025-08-03 14:58:06 - ⏭️  Skipping PR #1171 (default action)
+2025-08-03 14:58:07 - ⏭️  Skipping PR #1163 (default action)
+2025-08-03 14:58:08 - ⏭️  Skipping PR #1161 (default action)
+2025-08-03 14:58:09 - ⏭️  Skipping PR #1123 (default action)
+2025-08-03 14:58:10 - ⏭️  Skipping PR #1099 (default action)
+2025-08-03 14:58:11 - ⏭️  Skipping PR #1041 (default action)
+2025-08-03 14:58:12 - ⏭️  Skipping PR #1024 (default action)
+2025-08-03 14:58:13 - ⏭️  Skipping PR #973 (default action)
+2025-08-03 14:58:14 - ⏭️  Skipping PR #933 (default action)
+2025-08-03 14:58:15 - ⏭️  Skipping PR #871 (default action)
+2025-08-03 14:58:16 - ⏭️  Skipping PR #822 (default action)
+2025-08-03 14:58:17 - ⏭️  Skipping PR #799 (default action)
+2025-08-03 14:58:18 - ⏭️  Skipping PR #790 (default action)
+2025-08-03 14:58:19 - ⏭️  Skipping PR #737 (default action)
+2025-08-03 14:58:20 - ⏭️  Skipping PR #712 (default action)
+2025-08-03 14:58:21 - ⏭️  Skipping PR #696 (default action)
+2025-08-03 14:58:22 - ⏭️  Skipping PR #661 (default action)
+2025-08-03 14:58:23 - ⏭️  Skipping PR #636 (default action)
+2025-08-03 14:58:24 - ⏭️  Skipping PR #612 (default action)
+2025-08-03 14:58:25 - ⏭️  Skipping PR #568 (default action)
+2025-08-03 14:58:26 - ⏭️  Skipping PR #540 (default action)
+2025-08-03 14:58:27 - ⏭️  Skipping PR #509 (default action)
+2025-08-03 14:58:28 - ⏭️  Skipping PR #481 (default action)
+2025-08-03 14:58:30 - ⏭️  Skipping PR #466 (default action)
+2025-08-03 14:58:31 - ⏭️  Skipping PR #418 (default action)
+2025-08-03 14:58:32 - ⏭️  Skipping PR #371 (default action)
+2025-08-03 14:58:33 - ⏭️  Skipping PR #346 (default action)
+2025-08-03 14:58:34 - ⏭️  Skipping PR #342 (default action)
+2025-08-03 14:58:35 - ⏭️  Skipping PR #312 (default action)
+2025-08-03 14:58:36 - ⏭️  Skipping PR #279 (default action)
+2025-08-03 14:58:37 - ⏭️  Skipping PR #269 (default action)
+2025-08-03 14:58:38 - 🎉 Merge process completed!
+2025-08-03 14:58:38 - 📊 Summary: 0 merged, 0 failed, 52 skipped
+2025-08-03 14:59:57 - Starting new merge session
+2025-08-03 14:59:57 - 📡 Fetching latest changes...
+2025-08-03 14:59:59 - 🔄 Processing PR #1547: fix(docs): move disabled providers paragraph to its proper section (@grota)
+2025-08-03 14:59:59 - ✅ Successfully merged PR #1547 (commit: b0f2cc0c)
+2025-08-03 15:00:00 - 🔄 Processing PR #1546: Fix: Error [ERR_DLOPEN_FAILED] (@CaffeeLake)
+2025-08-03 15:00:01 - ✅ Successfully merged PR #1546 (commit: 2d3f9498)
+2025-08-03 15:00:02 - 🔄 Processing PR #1545: feat: add SourceKit LSP support (@bstncartwright)
+2025-08-03 15:00:02 - ✅ Successfully merged PR #1545 (commit: d6ca2b53)
+2025-08-03 15:00:03 - 🔄 Processing PR #1540: feat: Auth file parameter (@sahilchouksey)
+2025-08-03 15:00:03 - ✅ Successfully merged PR #1540 (commit: 8369b8a4)
+2025-08-03 15:00:04 - 🔄 Processing PR #1524: fix: add descriptions for a bunch of subcommands (@catdevnull)
+2025-08-03 15:00:04 - ✅ Successfully merged PR #1524 (commit: 690dab5a)
+2025-08-03 15:00:05 - 🔄 Processing PR #1518: add tofu-ls for terraform lsp support (@adunne09)
+2025-08-03 15:00:05 - ❌ Failed to merge PR #1518 due to conflicts
+2025-08-03 15:00:14 - Starting new merge session
+2025-08-03 15:00:14 - 📡 Fetching latest changes...
+2025-08-03 15:00:15 - 🔄 Processing PR #1547: fix(docs): move disabled providers paragraph to its proper section (@grota)
+2025-08-03 15:00:15 - ⏭️  PR #1547 already processed, skipping
+2025-08-03 15:00:16 - 🔄 Processing PR #1546: Fix: Error [ERR_DLOPEN_FAILED] (@CaffeeLake)
+2025-08-03 15:00:16 - ⏭️  PR #1546 already processed, skipping
+2025-08-03 15:00:17 - 🔄 Processing PR #1545: feat: add SourceKit LSP support (@bstncartwright)
+2025-08-03 15:00:17 - ⏭️  PR #1545 already processed, skipping
+2025-08-03 15:00:18 - 🔄 Processing PR #1540: feat: Auth file parameter (@sahilchouksey)
+2025-08-03 15:00:18 - ⏭️  PR #1540 already processed, skipping
+2025-08-03 15:00:19 - 🔄 Processing PR #1524: fix: add descriptions for a bunch of subcommands (@catdevnull)
+2025-08-03 15:00:19 - ⏭️  PR #1524 already processed, skipping
+2025-08-03 15:00:20 - 🔄 Processing PR #1518: add tofu-ls for terraform lsp support (@adunne09)
+2025-08-03 15:00:20 - ❌ Failed to merge PR #1518 due to conflicts
+2025-08-03 15:00:32 - Starting new merge session
+2025-08-03 15:00:32 - 📡 Fetching latest changes...
+2025-08-03 15:00:34 - 🔄 Processing PR #1547: fix(docs): move disabled providers paragraph to its proper section (@grota)
+2025-08-03 15:00:34 - ⏭️  PR #1547 already processed, skipping
+2025-08-03 15:00:35 - 🔄 Processing PR #1546: Fix: Error [ERR_DLOPEN_FAILED] (@CaffeeLake)
+2025-08-03 15:00:35 - ⏭️  PR #1546 already processed, skipping
+2025-08-03 15:00:36 - 🔄 Processing PR #1545: feat: add SourceKit LSP support (@bstncartwright)
+2025-08-03 15:00:36 - ⏭️  PR #1545 already processed, skipping
+2025-08-03 15:00:37 - 🔄 Processing PR #1540: feat: Auth file parameter (@sahilchouksey)
+2025-08-03 15:00:37 - ⏭️  PR #1540 already processed, skipping
+2025-08-03 15:00:38 - 🔄 Processing PR #1524: fix: add descriptions for a bunch of subcommands (@catdevnull)
+2025-08-03 15:00:38 - ⏭️  PR #1524 already processed, skipping
+2025-08-03 15:00:39 - 🔄 Processing PR #1518: add tofu-ls for terraform lsp support (@adunne09)
+2025-08-03 15:00:39 - ❌ Failed to merge PR #1518 due to conflicts
+2025-08-03 15:00:59 - Starting new merge session
+2025-08-03 15:00:59 - 📡 Fetching latest changes...
+2025-08-03 15:01:00 - 🔄 Processing PR #1547: fix(docs): move disabled providers paragraph to its proper section (@grota)
+2025-08-03 15:01:00 - ⏭️  PR #1547 already processed, skipping
+2025-08-03 15:01:01 - 🔄 Processing PR #1546: Fix: Error [ERR_DLOPEN_FAILED] (@CaffeeLake)
+2025-08-03 15:01:01 - ⏭️  PR #1546 already processed, skipping
+2025-08-03 15:01:02 - 🔄 Processing PR #1545: feat: add SourceKit LSP support (@bstncartwright)
+2025-08-03 15:01:02 - ⏭️  PR #1545 already processed, skipping
+2025-08-03 15:01:03 - 🔄 Processing PR #1540: feat: Auth file parameter (@sahilchouksey)
+2025-08-03 15:01:03 - ⏭️  PR #1540 already processed, skipping
+2025-08-03 15:01:04 - 🔄 Processing PR #1524: fix: add descriptions for a bunch of subcommands (@catdevnull)
+2025-08-03 15:01:04 - ⏭️  PR #1524 already processed, skipping
+2025-08-03 15:01:05 - 🔄 Processing PR #1518: add tofu-ls for terraform lsp support (@adunne09)
+2025-08-03 15:01:05 - ❌ Failed to merge PR #1518 due to conflicts
+2025-08-03 15:01:06 - 🔄 Processing PR #1496: Add an option to exclude OpenCode branding from commits (@andreagrandi)
+2025-08-03 15:01:07 - ❌ Failed to merge PR #1496 due to conflicts
+2025-08-03 15:01:08 - 🔄 Processing PR #1493: fix: implement LRU cache for session memory management (@ctclostio)
+2025-08-03 15:01:08 - ❌ Failed to merge PR #1493 due to conflicts
+2025-08-03 15:01:09 - 🔄 Processing PR #1488: feat: add custom provider support to GitHub Action (@ArykLAnderson)
+2025-08-03 15:01:09 - ✅ Successfully merged PR #1488 (commit: 09dc979f)
+2025-08-03 15:01:10 - 🔄 Processing PR #1470: Fix #1468: Allow for expansion of the tilde at the beginning of a path (@sleeper)
+2025-08-03 15:01:10 - ❌ Failed to merge PR #1470 due to conflicts
+2025-08-03 15:01:11 - 🔄 Processing PR #1437: Build script (`build` (@ `publish`)
+2025-08-03 15:01:11 - ❌ Failed to merge PR #1437 due to conflicts
+2025-08-03 15:01:12 - 🔄 Processing PR #1430: Implement the include_co_authored_by option (@samholmes)
+2025-08-03 15:01:12 - ❌ Failed to merge PR #1430 due to conflicts
+2025-08-03 15:01:13 - 🔄 Processing PR #1407: autocompaction (@lee101)
+2025-08-03 15:01:13 - ✅ Successfully merged PR #1407 (commit: 39136bb6)
+2025-08-03 15:01:14 - 🔄 Processing PR #1404: Modified updates from Beast Mode v3. (@scaryrawr)
+2025-08-03 15:01:14 - ✅ Successfully merged PR #1404 (commit: deecbdbd)
+2025-08-03 15:01:15 - 🔄 Processing PR #1369: implement the includeCoAuthoredBy option (@CodinCat)
+2025-08-03 15:01:15 - ❌ Failed to merge PR #1369 due to conflicts
+2025-08-03 15:01:16 - 🔄 Processing PR #1367: vscode extension - implement external terminal and add problems (@P-de-Jong)
+2025-08-03 15:01:16 - ✅ Successfully merged PR #1367 (commit: 8d5a87ba)
+2025-08-03 15:01:17 - 🔄 Processing PR #1366: fix vscode extension: register openNewTerminalDisposable (@P-de-Jong)
+2025-08-03 15:01:17 - ❌ Failed to merge PR #1366 due to conflicts
+2025-08-03 15:01:19 - 🔄 Processing PR #1360: fix(docs): small_model is not used for summarization (@timoclsn)
+2025-08-03 15:01:19 - ❌ Failed to merge PR #1360 due to conflicts
+2025-08-03 15:01:20 - 🔄 Processing PR #1350: Load MCP in parallel and cache MCP tools (@mpazik)
+2025-08-03 15:01:20 - ❌ Failed to merge PR #1350 due to conflicts
+2025-08-03 15:01:21 - 🔄 Processing PR #1345: feat: add yaml language server support (@Sam-3Degrees)
+2025-08-03 15:01:21 - ❌ Failed to merge PR #1345 due to conflicts
+2025-08-03 15:01:22 - 🔄 Processing PR #1333: fix: make description parameter optional in bash tool (@pepperpepperpepper)
+2025-08-03 15:01:22 - ✅ Successfully merged PR #1333 (commit: 418a2820)
+2025-08-03 15:01:23 - 🔄 Processing PR #1331: fix(tui): deduplicate file + completion attachments in messages (@jhrudden)
+2025-08-03 15:01:23 - ✅ Successfully merged PR #1331 (commit: 4f726b68)
+2025-08-03 15:01:24 - 🔄 Processing PR #1323: Fix/pyright empty event (@neriousy)
+2025-08-03 15:01:24 - ✅ Successfully merged PR #1323 (commit: 763ebaf6)
+2025-08-03 15:01:25 - 🔄 Processing PR #1317: Support prompt references (@file.txt and $`ls src`)  for modes and agents (@mpazik)
+2025-08-03 15:01:25 - ❌ Failed to merge PR #1317 due to conflicts
+2025-08-03 15:01:26 - 🔄 Processing PR #1315: (tui) feat: bash mode (@rekram1-node)
+2025-08-03 15:01:26 - ✅ Successfully merged PR #1315 (commit: fb016c36)
+2025-08-03 15:01:27 - 🔄 Processing PR #1308: Fix tool params for Azure OAI (@bepuca)
+2025-08-03 15:01:27 - ❌ Failed to merge PR #1308 due to conflicts
+2025-08-03 15:01:28 - 🔄 Processing PR #1304: Feat: custom commands (@ezynda3)
+2025-08-03 15:01:28 - ❌ Failed to merge PR #1304 due to conflicts
+2025-08-03 15:01:30 - 🔄 Processing PR #1303: Agent execution trough CLI "run" command (@mpazik)
+2025-08-03 15:01:30 - ✅ Successfully merged PR #1303 (commit: 4a15fdeb)
+2025-08-03 15:01:31 - 🔄 Processing PR #1299: add option and flag for using raw title instead of generated one (@rekram1-node)
+2025-08-03 15:01:31 - ❌ Failed to merge PR #1299 due to conflicts
+2025-08-03 15:01:32 - 🔄 Processing PR #1294: refactor: extract and modularize core system components (@yordyi)
+2025-08-03 15:01:32 - ❌ Failed to merge PR #1294 due to conflicts
+2025-08-03 15:01:33 - 🔄 Processing PR #1270: fix: fix index shifting issue with attachment restoration (@rstacruz)
+2025-08-03 15:01:33 - ✅ Successfully merged PR #1270 (commit: 8854911e)
+2025-08-03 15:01:34 - 🔄 Processing PR #1260: feat: opencode attach (@bansalarnav)
+2025-08-03 15:01:34 - ❌ Failed to merge PR #1260 due to conflicts
+2025-08-03 15:01:35 - 🔄 Processing PR #1256: Update github-copilot.ts (@defasdefbe)
+2025-08-03 15:01:35 - ✅ Successfully merged PR #1256 (commit: d7d6276f)
+2025-08-03 15:01:36 - 🔄 Processing PR #1254: fix: resolve BashTool hanging on background commands (@dnouri)
+2025-08-03 15:01:36 - ❌ Failed to merge PR #1254 due to conflicts
+2025-08-03 15:01:37 - 🔄 Processing PR #1236: feat: add custom sessionId (@Rhain)
+2025-08-03 15:01:37 - ✅ Successfully merged PR #1236 (commit: 99c8121f)
+2025-08-03 15:01:38 - 🔄 Processing PR #1232: fix: Add Gemini tool schema sanitization to MCP tools as well (@necaris)
+2025-08-03 15:01:38 - ❌ Failed to merge PR #1232 due to conflicts
+2025-08-03 15:01:39 - 🔄 Processing PR #1224: feat(server): improve server startup error handling (@braden-w)
+2025-08-03 15:01:39 - ✅ Successfully merged PR #1224 (commit: 6f0b43b4)
+2025-08-03 15:01:41 - 🔄 Processing PR #1218: feat(serve): add CORS origins configuration support (@braden-w)
+2025-08-03 15:01:41 - ❌ Failed to merge PR #1218 due to conflicts
+2025-08-03 15:01:42 - 🔄 Processing PR #1209: Fix/mouse coordinate selection (@pepperpepperpepper)
+2025-08-03 15:01:42 - ❌ Failed to merge PR #1209 due to conflicts
+2025-08-03 15:01:43 - 🔄 Processing PR #1196: docs(mcp_servers): adding reference to config under remote mcp docs (@dan-myles)
+2025-08-03 15:01:43 - ✅ Successfully merged PR #1196 (commit: bb9f95bb)
+2025-08-03 15:01:44 - 🔄 Processing PR #1191: fix(tui): allow character-by-character editing of TUI file attachments (@neriousy)
+2025-08-03 15:01:44 - ❌ Failed to merge PR #1191 due to conflicts
+2025-08-03 15:01:45 - 🔄 Processing PR #1189: fix(windows): improve tool cross-platform command execution (@leporel)
+2025-08-03 15:01:45 - ❌ Failed to merge PR #1189 due to conflicts
+2025-08-03 15:01:46 - 🔄 Processing PR #1171: An option to disable git snapshots (@cvzakharchenko)
+2025-08-03 15:01:46 - ❌ Failed to merge PR #1171 due to conflicts
+2025-08-03 15:01:47 - 🔄 Processing PR #1170: feat(config): add support for loading MCP configuration from `mcp.json` (@delafthi)
+2025-08-03 15:01:47 - ❌ Failed to merge PR #1170 due to conflicts
+2025-08-03 15:01:48 - 🔄 Processing PR #1163: TUI Performance Optimization (@entrepeneur4lyf)
+2025-08-03 15:01:48 - ❌ Failed to merge PR #1163 due to conflicts
+2025-08-03 15:01:49 - 🔄 Processing PR #1162: update build instructions in README.md (@yousshim)
+2025-08-03 15:01:49 - ✅ Successfully merged PR #1162 (commit: f82a9c78)
+2025-08-03 15:01:50 - 🔄 Processing PR #1161: docs: add llms.txt support for improved AI accessibility (@bstncartwright)
+2025-08-03 15:01:50 - ❌ Failed to merge PR #1161 due to conflicts
+2025-08-03 15:01:51 - 🔄 Processing PR #1137: feat(config): add option to disable AI attribution in commits and PRs (@antgonzales)
+2025-08-03 15:01:52 - ✅ Successfully merged PR #1137 (commit: 68826b8c)
+2025-08-03 15:01:53 - 🔄 Processing PR #1123: test: Defines symbols for successful test build (@theoboldalex)
+2025-08-03 15:01:53 - ✅ Successfully merged PR #1123 (commit: 701951a7)
+2025-08-03 15:01:54 - 🔄 Processing PR #1121: Restore Messages after send chat error (@Landro3)
+2025-08-03 15:01:54 - ❌ Failed to merge PR #1121 due to conflicts
+2025-08-03 15:01:55 - 🔄 Processing PR #1099: fix(tui): remove mode left-border in statusbar (@alcpereira)
+2025-08-03 15:01:55 - ✅ Successfully merged PR #1099 (commit: 6000b10d)
+2025-08-03 15:01:56 - 🔄 Processing PR #1056: fix(tui): remove extra newline after exiting /editor (@AdiY00)
+2025-08-03 15:01:56 - ✅ Successfully merged PR #1056 (commit: 76186faa)
+2025-08-03 15:01:57 - 🔄 Processing PR #1041: feat(compact): use small model to summarize in /compact (@timoclsn)
+2025-08-03 15:01:57 - ✅ Successfully merged PR #1041 (commit: 9f2718dc)
+2025-08-03 15:01:58 - 🔄 Processing PR #1027: feat: Add retry mechanism for Anthropic overloaded errors (@tito)
+2025-08-03 15:01:58 - ❌ Failed to merge PR #1027 due to conflicts
+2025-08-03 15:01:59 - 🔄 Processing PR #1024: support multiple prompt {file:...} directives (@nrbrd)
+2025-08-03 15:01:59 - ❌ Failed to merge PR #1024 due to conflicts
+2025-08-03 15:02:01 - 🔄 Processing PR #1022: chore(docs): Improve Data Storage Clarity and Accessibility (@thisguymartin)
+2025-08-03 15:02:01 - ✅ Successfully merged PR #1022 (commit: 10a41c13)
+2025-08-03 15:02:02 - 🔄 Processing PR #973: fix: Use model cost defined in config (@ if set.)
+2025-08-03 15:02:02 - ❌ Failed to merge PR #973 due to conflicts
+2025-08-03 15:02:03 - 🔄 Processing PR #952: Added recursive AGENTS.md loading from child dirs (@opencode-agent[bot])
+2025-08-03 15:02:03 - ✅ Successfully merged PR #952 (commit: 7d341792)
+2025-08-03 15:02:04 - 🔄 Processing PR #933: Add support for LLM Gateway w/ Anthropic (@Karrq)
+2025-08-03 15:02:04 - ✅ Successfully merged PR #933 (commit: 6da11a21)
+2025-08-03 15:02:05 - 🔄 Processing PR #899: Feature/status bar git head (@agileandy)
+2025-08-03 15:02:06 - ❌ Failed to merge PR #899 due to conflicts
+2025-08-03 15:02:07 - 🔄 Processing PR #871: (feat): case insensitive search on the grep tool (@rclark72)
+2025-08-03 15:02:07 - ✅ Successfully merged PR #871 (commit: 45fc027e)
+2025-08-03 15:02:08 - 🔄 Processing PR #859: Fix Documentation on Modes - Update modes.mdx (@brendancopley)
+2025-08-03 15:02:08 - ✅ Successfully merged PR #859 (commit: 80836dc4)
+2025-08-03 15:02:09 - 🔄 Processing PR #822: Improve system theme (@joshmedeski)
+2025-08-03 15:02:09 - ✅ Successfully merged PR #822 (commit: 14b482bb)
+2025-08-03 15:02:10 - 🔄 Processing PR #816: chore:unused deps (@yoshi-taka)
+2025-08-03 15:02:10 - ❌ Failed to merge PR #816 due to conflicts
+2025-08-03 15:02:11 - 🔄 Processing PR #799: add otel for perf debugging (@Schniz)
+2025-08-03 15:02:11 - ❌ Failed to merge PR #799 due to conflicts
+2025-08-03 15:02:12 - 🔄 Processing PR #791: feat(server): add scalar ui support for api documentation (@braden-w)
+2025-08-03 15:02:12 - ❌ Failed to merge PR #791 due to conflicts
+2025-08-03 15:02:13 - 🔄 Processing PR #790: feat(server): add swagger ui support for api documentation (@braden-w)
+2025-08-03 15:02:14 - ❌ Failed to merge PR #790 due to conflicts
+2025-08-03 15:02:15 - 🔄 Processing PR #741: fix: only check last message for agent call  (@mhuggins7278)
+2025-08-03 15:02:15 - ✅ Successfully merged PR #741 (commit: 40d7eef3)
+2025-08-03 15:02:16 - 🔄 Processing PR #737: fix: set optional provider attributes from nullable to nullable optional (@ryanjdillon)
+2025-08-03 15:02:16 - ❌ Failed to merge PR #737 due to conflicts
+2025-08-03 15:02:17 - 🔄 Processing PR #722: feat(mcp): add support to claude code style .mcp.json project scoped mcps (@AdamAugustinsky)
+2025-08-03 15:02:17 - ❌ Failed to merge PR #722 due to conflicts
+2025-08-03 15:02:18 - 🔄 Processing PR #712: MCP tool schema transformation for OpenAI/Azure providers (@ribelo)
+2025-08-03 15:02:18 - ❌ Failed to merge PR #712 due to conflicts
+2025-08-03 15:02:19 - 🔄 Processing PR #697: ci: fix setup-go cache dependency path (@alcpereira)
+2025-08-03 15:02:19 - ✅ Successfully merged PR #697 (commit: c08980ac)
+2025-08-03 15:02:20 - 🔄 Processing PR #696: chore: bump bun version to 1.2.18 (@alcpereira)
+2025-08-03 15:02:20 - ❌ Failed to merge PR #696 due to conflicts
+2025-08-03 15:02:21 - 🔄 Processing PR #693: /editor: non-successful editor exits should keep the text in the textarea (@Schniz)
+2025-08-03 15:02:21 - ❌ Failed to merge PR #693 due to conflicts
+2025-08-03 15:02:22 - 🔄 Processing PR #661: fix: prevent app hanging when executing sudo commands (@delorenj)
+2025-08-03 15:02:22 - ❌ Failed to merge PR #661 due to conflicts
+2025-08-03 15:02:23 - 🔄 Processing PR #638: fix: proper message for rate limit hit on anthropic provider (@IlyaGulya)
+2025-08-03 15:02:24 - ✅ Successfully merged PR #638 (commit: 7865fdc1)
+2025-08-03 15:02:25 - 🔄 Processing PR #636: refactor: centralize todo status and priority enums (@salignatmoandal)
+2025-08-03 15:02:25 - ❌ Failed to merge PR #636 due to conflicts
+2025-08-03 15:02:26 - 🔄 Processing PR #634: feat: Add Gemini pricing tier config option (@pschoudhary-dot)
+2025-08-03 15:02:26 - ❌ Failed to merge PR #634 due to conflicts
+2025-08-03 15:02:27 - 🔄 Processing PR #612: feat(formatter): Add detekt as Kotlin formatter (@MarcelBochtler)
+2025-08-03 15:02:27 - ✅ Successfully merged PR #612 (commit: 6759a15a)
+2025-08-03 15:02:28 - 🔄 Processing PR #580: feat: Add config flag to filter provider models (@ryanjdillon)
+2025-08-03 15:02:28 - ✅ Successfully merged PR #580 (commit: 90aaf42b)
+2025-08-03 15:02:29 - 🔄 Processing PR #568: fix: enable image file reading in read tool (fixes #451) (@morgvanny)
+2025-08-03 15:02:29 - ❌ Failed to merge PR #568 due to conflicts
+2025-08-03 15:02:30 - 🔄 Processing PR #562: chore: add `flake.nix` together `nix-direnv` support for development … (@kedom1337)
+2025-08-03 15:02:30 - ❌ Failed to merge PR #562 due to conflicts
+2025-08-03 15:02:31 - 🔄 Processing PR #540: Fix keypad input not working in TUI textarea component (@neominik)
+2025-08-03 15:02:31 - ❌ Failed to merge PR #540 due to conflicts
+2025-08-03 15:02:32 - 🔄 Processing PR #533: feat: add print mode flag to run command (@monotykamary)
+2025-08-03 15:02:33 - ✅ Successfully merged PR #533 (commit: ac2d0360)
+2025-08-03 15:02:34 - 🔄 Processing PR #509: docs: clarify MCP server configuration (@aspiers)
+2025-08-03 15:02:34 - ❌ Failed to merge PR #509 due to conflicts
+2025-08-03 15:02:35 - 🔄 Processing PR #503: fix: re-enable history shortcuts (@jakst)
+2025-08-03 15:02:35 - ❌ Failed to merge PR #503 due to conflicts
+2025-08-03 15:02:36 - 🔄 Processing PR #481: feat: hotkeys (@Tech0001)
+2025-08-03 15:02:36 - ❌ Failed to merge PR #481 due to conflicts
+2025-08-03 15:02:38 - 🔄 Processing PR #479: feat: provider selection (@Tech0001)
+2025-08-03 15:02:38 - ❌ Failed to merge PR #479 due to conflicts
+2025-08-03 15:02:39 - 🔄 Processing PR #466: feat: export local and view exported & project sessions in web UI (@ndraiman)
+2025-08-03 15:02:39 - ❌ Failed to merge PR #466 due to conflicts
+2025-08-03 15:02:40 - 🔄 Processing PR #429: 🔴 Fix HIGH Severity CVE-2023-4863 (@ColeMurray)
+2025-08-03 15:02:40 - ❌ Failed to merge PR #429 due to conflicts
+2025-08-03 15:02:41 - 🔄 Processing PR #418: feat(Discord): add rich presence support (@enchantednatures)
+2025-08-03 15:02:41 - ❌ Failed to merge PR #418 due to conflicts
+2025-08-03 15:02:42 - 🔄 Processing PR #394: Add `copilot-instructions.md` to the system prompt custom files search (@scaryrawr)
+2025-08-03 15:02:42 - ✅ Successfully merged PR #394 (commit: c400ba02)
+2025-08-03 15:02:43 - 🔄 Processing PR #371: Added `mcp` CLI command (@ndraiman)
+2025-08-03 15:02:44 - ❌ Failed to merge PR #371 due to conflicts
+2025-08-03 15:02:45 - 🔄 Processing PR #348: Feature: Fuzzy file search (@chriswritescode-dev)
+2025-08-03 15:02:45 - ❌ Failed to merge PR #348 due to conflicts
+2025-08-03 15:02:46 - 🔄 Processing PR #346: feat: open browser for github auth (@alcpereira)
+2025-08-03 15:02:46 - ❌ Failed to merge PR #346 due to conflicts
+2025-08-03 15:02:47 - 🔄 Processing PR #343: fix(keybind): un-comment history previous and next keymap (@GitMurf)
+2025-08-03 15:02:47 - ❌ Failed to merge PR #343 due to conflicts
+2025-08-03 15:02:48 - 🔄 Processing PR #342: feat(providers): use env variable instead of hardcoded api key in auth.json (@GitMurf)
+2025-08-03 15:02:48 - ❌ Failed to merge PR #342 due to conflicts
+2025-08-03 15:02:49 - 🔄 Processing PR #331: Docs update mcp models (@thesteganos)
+2025-08-03 15:02:49 - ❌ Failed to merge PR #331 due to conflicts
+2025-08-03 15:02:50 - 🔄 Processing PR #312: feat(cli): add git-commit-msg command for conventional commits (@TerrariumCode)
+2025-08-03 15:02:50 - ❌ Failed to merge PR #312 due to conflicts
+2025-08-03 15:02:51 - 🔄 Processing PR #311: feat: add http headers to remote mcp calls (@moutansos)
+2025-08-03 15:02:51 - ❌ Failed to merge PR #311 due to conflicts
+2025-08-03 15:02:52 - 🔄 Processing PR #279: feat: dual model support and sorting by release date (@aryasaatvik)
+2025-08-03 15:02:53 - ❌ Failed to merge PR #279 due to conflicts
+2025-08-03 15:02:54 - 🔄 Processing PR #275: feat: add dynamic window titles based on user messages (@aryasaatvik)
+2025-08-03 15:02:54 - ❌ Failed to merge PR #275 due to conflicts
+2025-08-03 15:02:55 - 🔄 Processing PR #269: feat: add dynamic status verbs (@aryasaatvik)
+2025-08-03 15:02:55 - ❌ Failed to merge PR #269 due to conflicts
+2025-08-03 15:02:56 - 🔄 Processing PR #75: Add `--permission-prompt-tool` to match claude code format (@allisoneer)
+2025-08-03 15:02:56 - ❌ Failed to merge PR #75 due to conflicts
+2025-08-03 15:02:57 - 🎉 Merge process completed!
+2025-08-03 15:02:57 - 📊 Summary: 38 merged, 69 failed, 52 skipped
