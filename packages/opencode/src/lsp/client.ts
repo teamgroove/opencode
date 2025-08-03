@@ -158,6 +158,24 @@ export namespace LSPClient {
         input.path = path.isAbsolute(input.path) ? input.path : path.resolve(app.path.cwd, input.path)
         log.info("waiting for diagnostics", input)
         let unsub: () => void
+
+        if (result.serverID === "pyright") {
+          await withTimeout(
+            new Promise<void>((resolve) => {
+              const initialUnsub = Bus.subscribe(Event.Diagnostics, (event) => {
+                if (event.properties.path === input.path && event.properties.serverID === result.serverID) {
+                  log.info("consumed initial pyright event", input)
+                  initialUnsub()
+                  resolve()
+                }
+              })
+            }),
+            50,
+          ).catch(() => {
+            log.info("no initial pyright event, continuing", input)
+          })
+        }
+
         return await withTimeout(
           new Promise<void>((resolve) => {
             unsub = Bus.subscribe(Event.Diagnostics, (event) => {
