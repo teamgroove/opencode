@@ -556,7 +556,7 @@ func (m *editorComponent) SetInterruptKeyInDebounce(inDebounce bool) {
 }
 
 func (m *editorComponent) SetValue(value string) {
-	m.textarea.SetValue(value)
+	m.textarea.SetValue(strings.TrimSuffix(value, "\n"))
 }
 
 func (m *editorComponent) SetValueWithAttachments(value string) {
