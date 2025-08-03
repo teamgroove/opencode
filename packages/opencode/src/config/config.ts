@@ -310,6 +310,7 @@ export namespace Config {
         )
         .optional(),
       instructions: z.array(z.string()).optional().describe("Additional instruction files or patterns to include"),
+      disable_ai_attribution: z.boolean().optional().describe("Disable AI attribution in commits and pull requests"),
       layout: Layout.optional().describe("@deprecated Always uses stretch layout."),
       permission: z
         .object({
