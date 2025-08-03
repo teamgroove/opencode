@@ -141,6 +141,55 @@ By default, sharing is set to manual mode where you need to explicitly share con
 
 ---
 
+### Data Storage
+
+opencode stores various types of data in different locations on your system:
+
+#### Configuration & Authentication
+
+- **Global config**: `~/.config/opencode/opencode.json`
+- **Authentication**: `~/.local/share/opencode/auth.json` (API keys from `opencode auth login`)
+
+#### Session Data & Project Files
+
+- **Session data**: `~/.local/share/opencode/project/{project-name}/storage/session/`
+- **Message history**: `~/.local/share/opencode/project/{project-name}/storage/session/message/{session-id}/`
+- **Project state**: `~/.local/share/opencode/project/{project-name}/app.json`
+
+#### Logs & Cache
+
+- **Logs**:
+  - **macOS/Linux**: `~/.local/share/opencode/log/`
+  - **Windows**: `%APPDATA%\opencode\log\`
+- **Cache**: `~/.cache/opencode/`
+
+#### Project Name Generation
+
+Project names are generated from your Git repository path by:
+
+1. Taking the full repository root path
+2. Replacing path separators with hyphens
+3. Replacing non-alphanumeric characters with hyphens
+
+**Example**: `/Users/john/projects/my-app` becomes `Users-john-projects-my-app`
+
+#### Finding Your Data
+
+To locate your opencode data:
+
+```bash
+# View all projects
+ls ~/.local/share/opencode/project/
+
+# View sessions for a specific project
+ls ~/.local/share/opencode/project/{project-name}/storage/session/
+
+# View authentication info
+cat ~/.local/share/opencode/auth.json
+```
+
+---
+
 ### Keybinds
 
 You can customize your keybinds through the `keybinds` option.
