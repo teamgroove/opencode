@@ -71,6 +71,7 @@
         "@types/bun": "latest",
         "@types/turndown": "5.0.5",
         "@types/yargs": "17.0.33",
+        "node-gyp-build": "4.8.4",
         "typescript": "catalog:",
         "vscode-languageserver-types": "3.17.5",
         "zod-to-json-schema": "3.24.5",
@@ -130,7 +131,9 @@
   },
   "trustedDependencies": [
     "sharp",
+    "tree-sitter",
     "esbuild",
+    "tree-sitter-bash",
   ],
   "catalog": {
     "@tsconfig/node22": "22.0.2",
