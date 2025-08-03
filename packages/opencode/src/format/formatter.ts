@@ -135,6 +135,15 @@ export const clang: Info = {
   },
 }
 
+export const detekt: Info = {
+  name: "detekt",
+  command: ["detekt", "-ac", "-i", "$FILE"],
+  extensions: [".kt", ".kts"],
+  async enabled() {
+    return Bun.which("detekt") !== null
+  },
+}
+
 export const ktlint: Info = {
   name: "ktlint",
   command: ["ktlint", "-F", "$FILE"],
