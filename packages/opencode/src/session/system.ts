@@ -62,8 +62,13 @@ export namespace SystemPrompt {
     const config = await Config.get()
     const found = []
     for (const item of CUSTOM_FILES) {
-      const matches = await Filesystem.findUp(item, cwd, root)
-      found.push(...matches.map((x) => Bun.file(x).text()))
+      // Search upward from current directory
+      const upMatches = await Filesystem.findUp(item, cwd, root)
+      found.push(...upMatches.map((x) => Bun.file(x).text()))
+      
+      // Search downward from current directory (limited depth to avoid performance issues)
+      const downMatches = await Filesystem.findDown(item, cwd, 3)
+      found.push(...downMatches.map((x) => Bun.file(x).text()))
     }
     found.push(
       Bun.file(path.join(Global.Path.config, "AGENTS.md"))
