@@ -27,8 +27,59 @@ export namespace Provider {
 
   const CUSTOM_LOADERS: Record<string, CustomLoader> = {
     async anthropic(provider) {
+      // Check for LLM Gateway configuration first
+      const baseUrl = process.env["ANTHROPIC_BASE_URL"]
+      const authToken = process.env["ANTHROPIC_AUTH_TOKEN"]
+      const apiKey = process.env["ANTHROPIC_API_KEY"]
+      // If gateway configuration is present, handle it directly
+      if (baseUrl && (authToken || apiKey)) {
+        // Ensure the baseURL includes /v1 for the Anthropic API
+        const normalizedBaseUrl = baseUrl.endsWith("/v1") ? baseUrl : `${baseUrl}/v1`
+
+        return {
+          autoload: true,
+          options: {
+            apiKey: apiKey ?? "", // Use real API key if set, otherwise blank string
+            baseURL: normalizedBaseUrl,
+            async fetch(input: any, init: any) {
+              const headers = {
+                ...init.headers,
+              }
+              if (authToken) {
+                headers["authorization"] = `Bearer ${authToken}`
+              }
+              if (apiKey) {
+                headers["x-api-key"] = apiKey
+              }
+              const response = await fetch(input, {
+                ...init,
+                headers,
+              })
+              return response
+            },
+          },
+        }
+      }
+
+      // If base URL is set but no auth credentials, log helpful error
+      if (baseUrl && !authToken && !apiKey) {
+        log.error("Anthropic LLM Gateway configured but missing authentication", {
+          baseUrl,
+          message: "Set either ANTHROPIC_AUTH_TOKEN or ANTHROPIC_API_KEY environment variable",
+        })
+      }
+
+      // If direct API key is present, use standard configuration
+      if (apiKey) {
+        return { autoload: false } // Let the env loader handle this
+      }
+
+      // Otherwise, use OAuth authentication
       const access = await AuthAnthropic.access()
-      if (!access) return { autoload: false }
+      if (!access) {
+        return { autoload: false }
+      }
+
       for (const model of Object.values(provider.models)) {
         model.cost = {
           input: 0,
@@ -309,10 +360,68 @@ export namespace Provider {
       database[providerID] = parsed
     }
 
+    // Add LLM Gateway environment variables to Anthropic provider
+    if (database["anthropic"]) {
+      database["anthropic"].env = [
+        ...new Set([...database["anthropic"].env, "ANTHROPIC_BASE_URL", "ANTHROPIC_AUTH_TOKEN"]),
+      ]
+    }
+
     const disabled = await Config.get().then((cfg) => new Set(cfg.disabled_providers ?? []))
     // load env
     for (const [providerID, provider] of Object.entries(database)) {
       if (disabled.has(providerID)) continue
+
+      // Handle Anthropic LLM Gateway configuration
+      if (providerID === "anthropic") {
+        const baseUrl = process.env["ANTHROPIC_BASE_URL"]
+        const authToken = process.env["ANTHROPIC_AUTH_TOKEN"]
+        const apiKey = process.env["ANTHROPIC_API_KEY"]
+
+        if (baseUrl || authToken || apiKey) {
+          const options: Record<string, any> = {}
+
+          // Set base URL if provided
+          if (baseUrl) {
+            options["baseURL"] = baseUrl
+          }
+
+          // Use auth token first, then API key, or placeholder if using baseURL without auth
+          if (authToken) {
+            options["apiKey"] = "dummy" // The AI SDK requires an apiKey but we'll override the headers
+            // For claude-nexus-proxy, send auth token as Authorization Bearer header
+            options["fetch"] = async (input: any, init: any) => {
+              const headers = {
+                ...init.headers,
+                Authorization: `Bearer ${authToken}`, // claude-nexus-proxy expects this format
+              }
+
+              // Remove the x-api-key header that the AI SDK adds by default
+              delete headers["x-api-key"]
+
+              try {
+                const response = await fetch(input, {
+                  ...init,
+                  headers,
+                })
+
+                return response
+              } catch (error) {
+                throw error
+              }
+            }
+          } else if (apiKey) {
+            options["apiKey"] = apiKey
+          } else if (baseUrl) {
+            // If only baseURL is set, provide a placeholder API key
+            // The gateway should handle authentication
+            options["apiKey"] = "gateway-auth"
+          }
+
+          mergeProvider(providerID, options, "env")
+          continue
+        }
+      }
       const apiKey = provider.env.map((item) => process.env[item]).at(0)
       if (!apiKey) continue
       mergeProvider(
